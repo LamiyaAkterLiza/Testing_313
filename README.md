@@ -8,11 +8,9 @@ public class CountWordFile
         String line;  
         int count = 0;  
   
-        
         FileReader file = new FileReader("data.txt ");  
         BufferedReader br = new BufferedReader(file);  
-  
-        
+ 
         while((line = br.readLine()) != null) {  
             
             String words[] = line.split("");  
